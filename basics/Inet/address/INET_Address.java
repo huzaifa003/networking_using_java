@@ -1,4 +1,4 @@
-package Inet;
+package Inet.address;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -30,6 +30,6 @@ public class INET_Address {
         System.out.println("HOST NAME : " + address.getHostName());
         System.out.println("HOST ADDRESS : " + address.getHostAddress()); //host address is also IPAddress without the HOST NAME
 
-        System.out.println("LOOP BACK ADDRESS? : "+ address.isLoopbackAddress()); //A loopback address is a special IP address, 127.0. 0.1, reserved by InterNIC for use in testing network cards.
+        System.out.println("LOOP BACK ADDRESS? : "+ address.isLoopbackAddress()); //A loopback address is a special IP address, 127.0. 0.1, reserved by InterNIC for use in testing network cards. ALSO KNOWN AS LOCAL HOST
     }
 }
